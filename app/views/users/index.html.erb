@@ -1,0 +1,21 @@
+<h1>Listing Users</h1>
+
+<table>
+  <tr>
+    <th>userName</th>
+    <th>displayName</th>
+
+  </tr>
+
+<% @users.each do |user| %>
+  <tr>
+    <td><%= user.userName %></td>
+    <td><%= link_to image_tag(user.avatarUrl, :border=>0), user.url %></td>
+
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+

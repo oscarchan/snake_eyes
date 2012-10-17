@@ -1,0 +1,14 @@
+test:
+  crucible_base_url: http://crucible.payments.zynga.com/crucible
+  crucible_user: snake_eyes
+  crucible_password: gijoe
+
+production:
+  crucible_base_url: http://crucible.payments.zynga.com/crucible
+  crucible_user: snake_eyes
+  crucible_password: gijoe
+
+development:
+  crucible_base_url: http://crucible.payments.zynga.com/crucible
+  crucible_user: snake_eyes
+  crucible_password: gijoe

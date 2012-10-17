@@ -1,4 +1,14 @@
 SnakeEyes::Application.routes.draw do
+  get "reviews/index"
+
+  get "reviews/show"
+
+  get "users/index"
+
+  get "users/show"
+
+  resources :auths
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
